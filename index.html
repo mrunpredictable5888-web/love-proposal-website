@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For You ❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="floating-hearts" aria-hidden="true">
+      <span>❤</span>
+      <span>❤</span>
+      <span>❤</span>
+      <span>❤</span>
+      <span>❤</span>
+      <span>❤</span>
+      <span>❤</span>
+    </div>
+
+    <main class="card" id="card">
+      <p class="eyebrow">A little note for my favorite person</p>
+      <h1>Will you be my forever?</h1>
+
+      <div class="photo-frame" aria-label="A heart-themed illustration">
+        <div class="heart heart-a"></div>
+        <div class="heart heart-b"></div>
+        <div class="center-glow"></div>
+      </div>
+
+      <p class="message">
+        Every day with you feels like a beautiful dream. You make my world brighter,
+        gentler, and happier. So, can I be the luckiest person and spend forever with you?
+      </p>
+
+      <div class="actions">
+        <button class="btn btn-primary" id="yesBtn">Yes, forever ❤️</button>
+        <button class="btn btn-secondary" id="noBtn">Maybe later</button>
+      </div>
+
+      <div class="response hidden" id="responseBox" aria-live="polite">
+        <h2>Yay! I knew it! 💖</h2>
+        <p>Now let's make the sweetest memories together, one day at a time.</p>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
